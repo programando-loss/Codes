@@ -1,0 +1,19 @@
+import os 
+
+mensagems = []
+nome = input("Qual é o seu nome ? : ")
+
+while True:
+    os.system("cls") # LIMPA A TELA DO TERMINAL
+    
+    if len(mensagems) > 0:
+       for m in mensagems:
+           print (m ["nome"], "-", m["texto"])
+
+    print("__________________________")
+    
+    texto = input("mensagem: ")
+    if texto == "fim" and "parar" and "sair":
+       break
+    
+    mensagems.append({"nome": nome, "texto": texto})
