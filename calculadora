@@ -1,0 +1,27 @@
+numerin1 = input ("Fale um numero  : ") # PERGUNTA PARA FALAR DOIS NUMERO DE 1 A 10 
+numerin2 = input ("Fale outro : " )
+  
+
+perguntaF = float(numerin1)  # VERIFICA PARA VER SE A RESPOSTA DE (numerin1 e numerin2) É UM NUMERO
+perguntaG = float(numerin2) 
+result_multiplicaçao =  (perguntaF * perguntaG)
+result_Subtração =  (perguntaF - perguntaG)
+result_Divisão =  (perguntaF / perguntaG)
+result_Adição =  (perguntaF + perguntaG)
+result_Potencia = (perguntaF ** perguntaG)
+
+qual_operaçao = input ("Qual operação matemática você quer resolver ? x,-,/,+ ou ** : ") # PERGUNTA DA OPERAÇÃO MATEMATICA
+if qual_operaçao == ("x"):
+  print (result_multiplicaçao)
+else: 
+  print ("Inválido")
+if qual_operaçao == ("-"):
+  print (result_Subtração) # TUDO ISSO PARA DAR O RESULTADO EQUIVALENTE A RESPOSTA operaçao matematica
+if qual_operaçao == ("/"):
+  print (result_Divisão)
+if qual_operaçao == ("+"):
+  print(result_Adição)
+if qual_operaçao == ("**"):
+  print(result_Potencia)
+  
+  round ( qual_operaçao ) , (5)
